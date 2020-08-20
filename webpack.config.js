@@ -139,7 +139,7 @@ module.exports = {
                     loader: 'babel-loader',
                     options: babelOptions('@babel/preset-react')
                 }
-            }
+            },
 
         ]
     }
