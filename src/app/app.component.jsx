@@ -7,6 +7,7 @@ import Main from './views/main/mian'
 class App extends Component {
   constructor(props) {
     super(props);
+    this.listRef = React.createRef();
   }
 
   render() {
